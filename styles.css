@@ -1,0 +1,132 @@
+ .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    opacity: 30%;
+}
+.Background {
+    background-image: url('worker.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    max-height: 900px;
+}
+
+section {
+    width: 100%;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    min-height: 100vh; 
+}
+
+
+footer {
+    
+    background-color: #343a40;
+    color: white;
+    height: 300px;
+    padding: 20px 0;
+}
+.list{
+    list-style-type: none;
+}
+.lists{
+    list-style-type: none;
+    
+}
+.icon-list{
+    margin-left: -350px !important
+}
+
+
+*{
+color: aliceblue;    
+}
+.center-text {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 55vh;   
+    max-height: 55vh;       
+    text-align: center;     
+    padding: 20px;          
+    box-sizing: border-box; 
+}
+.para{
+    font-size: 30px;
+    color: rgb(169, 238, 238);
+}
+.fara{
+    font-size: 80px;
+    color: rgb(247, 247, 247);
+}
+.align-items-center {
+    text-align: center;
+}
+.container {
+    margin-top: -60px;
+    /* transform: translate(0,-100px);     */
+    display: flex;              
+     justify-content: center;     
+    align-items: center;         
+    height: 30vh;   
+    max-height: 350px;            
+    gap: 50px;                   
+}
+
+.third{
+    height: 250px;
+   font-size: 20px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    gap: 180px;
+    
+    align-items: center;
+}
+.t{
+    font-size: 70px;
+
+}
+.Third-one{
+    background-color: rgb(107, 243, 125);
+    height: 150px;
+}
+.sub-div1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(107, 243, 125);
+}
+.heading{
+    color: black;
+    font-size: 30px;
+}
+.l1{
+    margin: ;
+}
+.Backgrounds {
+    background-image: url('worker.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    max-height: 250px;
+}
+.cardy{
+    margin-top: -20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
